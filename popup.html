@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Auto Refresher</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Auto Refresher</h1>
+  <label>
+    Refresh interval (seconds):
+    <input id="intervalInput" type="number" min="1" value="5" />
+  </label>
+  <div>
+    <button id="startBtn">Start</button>
+    <button id="stopBtn">Stop</button>
+  </div>
+  <p id="statusText">Status: <strong>Inactive</strong></p>
+  <p id="countdown">Next refresh in: <strong id="timer">--</strong>s</p>
+  <script src="https://unpkg.com/webextension-polyfill@0.10.0/dist/browser-polyfill.min.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>
