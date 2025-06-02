@@ -27,9 +27,7 @@ A lightweight browser extension that automatically refreshes your current browse
 
 ## Screenshot
 
-```
-![Popup UI](screenshot.png)
-```
+<img width="331" alt="Screenshot 2025-06-03 at 1 19 35 AM" src="https://github.com/user-attachments/assets/bc2aa9c6-2edb-4275-ac5e-fff0c952d850" />
 
 ## File Structure
 
